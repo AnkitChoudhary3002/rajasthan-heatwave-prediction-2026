@@ -1,109 +1,79 @@
-🔥 Heatwave Prediction in Rajasthan (Summer 2026)
-📌 Project Overview
+# 🔥 Heatwave Prediction in Rajasthan (Summer 2026)
 
-This project focuses on predicting heatwave conditions in Rajasthan for Summer 2026 using historical daily climate data.
-The current implementation analyzes summer-season heatwaves, while the underlying dataset contains multi-year daily meteorological records, enabling extension to daily forecasting and time-series modeling in a production environment.
+## 📌 Project Overview
+This project focuses on predicting **heatwave conditions in Rajasthan for Summer 2026** using historical daily climate data.  
+The current implementation analyzes **summer-season heatwaves**, while the underlying dataset contains **multi-year daily meteorological records**, enabling extension to **daily forecasting and time-series modeling** in a production environment.
 
-The project is being developed as a scalable ML pipeline, with emphasis on maintainability, reproducibility, and future deployment.
+The project is being developed as a **scalable machine learning pipeline**, with emphasis on maintainability, reproducibility, and future deployment.
 
-🎯 Objectives
+---
 
-Analyze historical temperature and humidity patterns related to heatwaves
+## 🎯 Objectives
+- Analyze historical temperature and humidity patterns related to heatwaves  
+- Compute heat index and classify heatwave severity  
+- Build a baseline predictive model for summer heatwaves  
+- Design a pipeline that supports daily forecasting  
+- Prepare the system for time-series forecasting and production use  
 
-Compute heat index and classify heatwave severity
+---
 
-Build a baseline predictive model for summer heatwaves
+## 📊 Dataset
+- Multi-year **daily climate data**  
+- Features include:
+  - Temperature  
+  - Humidity  
+  - Wind speed  
+  - Solar radiation  
+  - Derived heat index  
+- Although the dataset covers **all seasons and years**, the current notebook focuses on **summer months** for problem scoping.
 
-Design a pipeline that supports daily forecasting
+---
 
-Prepare the system for time-series forecasting and production use
+## 🧠 Methodology
+- Data cleaning and preprocessing  
+- Seasonal filtering for summer analysis  
+- Feature engineering (heat index calculation)  
+- Heatwave labeling using threshold-based criteria  
+- Exploratory data analysis and visualization  
+- Baseline machine learning model training and evaluation  
 
-📊 Dataset
+---
+## 🔁 Pipeline Design (Production-Oriented)
+The project is structured as an **end-to-end ML pipeline**:
 
-Multi-year daily climate data
+- The same pipeline can operate on **daily incoming data**  
+- Supports rolling evaluation and future automation  
+- Designed to transition smoothly into **time-series forecasting models**
 
-Features include:
+---
 
-Temperature
+## 🚧 Current Status
+- ✅ Data preprocessing and exploratory data analysis (EDA)  
+- ✅ Heat index computation and heatwave classification  
+- ✅ Baseline model development  
+- 🚧 Modular pipeline implementation (in progress)  
+- 🚧 Daily forecasting evaluation  
+- 🚧 Model versioning and deployment  
 
-Humidity
+---
 
-Wind speed
+## 🔮 Future Work
+- Convert notebooks into modular Python scripts  
+- Implement daily automated forecasting  
+- Extend model to time-series approaches (ARIMA / ML with lag features / LSTM)  
+- Add API or dashboard for real-time predictions  
+- Introduce logging, monitoring, and model version control  
 
-Solar radiation
+---
 
-Derived heat index
+## 🛠️ Tech Stack
+- Python  
+- Pandas, NumPy  
+- Matplotlib / Seaborn  
+- Scikit-learn  
+- Jupyter Notebook  
 
-Although the dataset covers all seasons and years, the current notebook focuses on summer months for problem scoping.
+---
 
-🧠 Methodology
-
-Data cleaning and preprocessing
-
-Seasonal filtering for summer analysis
-
-Feature engineering (heat index calculation)
-
-Heatwave labeling using threshold-based criteria
-
-Exploratory data analysis and visualization
-
-Baseline machine learning model training and evaluation
-
-🔁 Pipeline Design (Production-Oriented)
-
-The project is being structured as an end-to-end ML pipeline:
-
-Raw Daily Data
-   ↓
-Data Validation
-   ↓
-Feature Engineering
-   ↓
-Model Inference
-   ↓
-Daily Heatwave Prediction
-
-
-The same pipeline can operate on daily incoming data
-
-Supports rolling evaluation and future automation
-
-Designed to transition smoothly into time-series forecasting models
-
-🚧 Current Status
-
-✅ Data preprocessing and EDA
-✅ Heat index computation and heatwave classification
-✅ Baseline model development
-🚧 Modular pipeline implementation (in progress)
-🚧 Daily forecasting evaluation
-🚧 Model versioning and deployment
-
-🔮 Future Work
-
-Convert notebooks into modular Python scripts
-
-Implement daily automated forecasting
-
-Extend model to time-series approaches (ARIMA / ML with lag features / LSTM)
-
-Add API or dashboard for real-time predictions
-
-Introduce logging, monitoring, and model version control
-
-🛠️ Tech Stack
-
-Python
-
-Pandas, NumPy
-
-Matplotlib / Seaborn
-
-Scikit-learn
-
-Jupyter Notebook
-
-📌 Why This Project
-
-This project is designed not only as an academic exercise but as a production-ready climate analytics system, suitable for continuous prediction, evaluation, and future deployment.
+## 📌 Why This Project
+This project is designed not only as an academic exercise but as a **production-ready climate analytics system**, suitable for continuous prediction, evaluation, and future deployment.
