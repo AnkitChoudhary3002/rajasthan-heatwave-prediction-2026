@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 This project focuses on predicting **heatwave conditions in Rajasthan for Summer 2026** using historical daily climate data.  
-The current implementation analyzes **summer-season heatwaves**, while the underlying dataset contains **multi-year daily meteorological records**, enabling extension to **daily forecasting and time-series modeling** in a production environment.
+The current implementation analyses summer-season heatwaves, while the underlying dataset contains multi-year daily meteorological records, enabling extension to daily forecasting and time-series modelling in a production environment.
 
 The project is being developed as a **scalable machine learning pipeline**, with emphasis on maintainability, reproducibility, and future deployment.
 
@@ -33,7 +33,7 @@ The project is being developed as a **scalable machine learning pipeline**, with
 - Data cleaning and preprocessing  
 - Seasonal filtering for summer analysis  
 - Feature engineering (heat index calculation)  
-- Heatwave labeling using threshold-based criteria  
+- Heatwave labelling using threshold-based criteria  
 - Exploratory data analysis and visualization  
 - Baseline machine learning model training and evaluation  
 
@@ -76,4 +76,4 @@ The project is structured as an **end-to-end ML pipeline**:
 ---
 
 ## 📌 Why This Project
-This project is designed not only as an academic exercise but as a **production-ready climate analytics system**, suitable for continuous prediction, evaluation, and future deployment.
+This project is designed as a **production-ready climate analytics system**, suitable for continuous prediction, evaluation, and future deployment.
