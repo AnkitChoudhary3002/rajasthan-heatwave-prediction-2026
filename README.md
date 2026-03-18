@@ -25,8 +25,15 @@ The project is being developed as a **scalable machine learning pipeline**, with
   - Wind speed  
   - Solar radiation  
   - Derived heat index  
-- Although the dataset covers **all seasons and years**, the current notebook focuses on **summer months** for problem scoping.
 
+- 📥 Data Source:  
+  Historical weather data was collected from the Visual Crossing Weather API:  
+  https://www.visualcrossing.com  
+
+- 📍 Station Information:  
+  The data corresponds to the weather station **“VIJP, remote”**, where the meteorological observations were recorded.
+
+- Although the dataset covers **all seasons and years**, the current notebook focuses on **summer months** for problem scoping.
 ---
 
 ## 🧠 Methodology
