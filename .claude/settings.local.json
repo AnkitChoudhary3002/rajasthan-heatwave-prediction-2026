@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(streamlit run:*)",
+      "Bash(dir /b E:Summer_heat_wave)",
+      "Bash(findstr /v \"shwenv\")",
+      "Bash(findstr /v \".claude\")",
+      "Bash(findstr /v \".git\")",
+      "Bash(timeout 5 uvicorn main:app --host 127.0.0.1 --port 8000)"
+    ]
+  }
+}
