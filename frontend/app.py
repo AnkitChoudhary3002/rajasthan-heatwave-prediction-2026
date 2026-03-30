@@ -9,8 +9,10 @@ import requests
 import streamlit as st
 from services.api_service import HeatwaveService
 
-service = HeatwaveService("http://43.205.140.153")
-API_URL = "http://43.205.140.153"  # Update with your backend API URL
+# service = HeatwaveService("http://43.205.140.153")
+# API_URL = "http://43.205.140.153"  
+service = HeatwaveService("http://localhost")
+API_URL = "http://localhost"  
 st.title("🌡️ Heatwave System")
 
 option = st.radio(
