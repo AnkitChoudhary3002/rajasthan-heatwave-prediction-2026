@@ -79,12 +79,31 @@ summer-heat-wave/
 │
 ├── notebooks/                  # EDA & experimentation
 │
-├── Dockerfile                  # Container definition
+├── frontend/                   # Frontend application (UI)
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── ...
+│
+├── Dockerfile                  # Backend container definition
 ├── .dockerignore               # Docker ignore rules
 ├── requirements.txt            # Python dependencies
 └── README.md
 ```
+---
 
+## 🖥️ Frontend
+
+The project includes a frontend UI to interact with the Heatwave Prediction API.
+
+### Features
+- Submit weather input for prediction
+- View heatwave risk level (`Low`, `Medium`, `High`)
+- Display advisory and work-safety recommendation
+- Fetch weather by city and prefill prediction inputs
+- Heat Index calculator integration
+
+---
 ---
 
 ## 🚀 Quick Start
